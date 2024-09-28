@@ -141,7 +141,7 @@ function ShoppingHeader() {
       <div className="flex h-16 items-center justify-between px-4 md:px-6">
         <Link to="/shop/home" className="flex items-center gap-2">
         <div>
-         <img src={img5} alt="Logo" width={220} height={auto} className="object-contain mb-8"/>
+         <img src={img5} alt="Logo" width={220} height={100} className="object-contain mb-8"/>
           </div>
         </Link>
         <Sheet>
