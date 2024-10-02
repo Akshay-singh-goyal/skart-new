@@ -48,7 +48,7 @@ function ProductImageUpload({
   async function uploadImageToCloudinary() {
     setImageLoadingState(true);
     const data = new FormData();
-    data.append("skart_folder", imageFile);
+    data.append("skart_folder",saweriyaproduct);
     const response = await axios.post(
       "https://skart-backend-3.onrender.com/api/admin/products/upload-image",
       data
